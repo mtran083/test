@@ -25,7 +25,7 @@ public class BulletManager : MonoBehaviour
         Instance = this;
 
         // Furthermore we make sure that we don't destroy between scenes (this is optional)
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
         b_idx = 0;
         b_list = new Transform[pool_size];
